@@ -1,12 +1,17 @@
 # Machine learning models
 
-Jupyter notebooks for classical models:
+Jupyter notebooks that train classical models on two CSV datasets.
 
-- KNN classification (`knn.ipynb`) and KNN regression (`knnreg.ipynb`)
-- Decision trees (`DecisionTree.ipynb`, `DecisionTrees.ipynb`)
-- Random forest (`RandomForest.ipynb`)
-- SVM (`SVM.ipynb`)
+| Notebook | Model |
+|---|---|
+| `knn.ipynb` | KNN classification |
+| `knnreg.ipynb` | KNN regression |
+| `DecisionTree.ipynb`, `DecisionTrees.ipynb` | Decision tree |
+| `RandomForest.ipynb` | Random forest |
+| `SVM.ipynb` | Support vector machine |
 
-The datasets in the repository are `Titanic-Dataset.csv` and `winequality-red.csv`.
+`Titanic-Dataset.csv` and `winequality-red.csv` are the datasets checked into the repository.
 
-Create a local virtual environment before running the notebooks. The `venv` folder is not part of the repository.
+## Run
+
+Create a virtual environment, install the libraries each notebook imports, and open the notebook in Jupyter. The `venv` directory is not part of the repository.
